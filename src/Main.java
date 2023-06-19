@@ -9,13 +9,12 @@ public class Main {
             bonus = replenishment / 100;
         } else {
             bonus = 0;
+        }
 
             int finalScore = startingScore + bonus;
 
             System.out.println(bonus + " составил бонус за пополнение счета");
             System.out.println("Сумма счета с учетом бонуса составила " + finalScore);
 
-
-        }
     }
 }
