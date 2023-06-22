@@ -11,10 +11,10 @@ public class Main {
             bonus = 0;
         }
 
-            int finalScore = startingScore + bonus;
+        int finalScore = startingScore + bonus;
 
-            System.out.println(bonus + " составил бонус за пополнение счета");
-            System.out.println("Сумма счета с учетом бонуса составила " + finalScore);
+        System.out.println(bonus + " составил бонус за пополнение счета");
+        System.out.println("Сумма счета с учетом бонуса составила " + finalScore);
 
     }
 }
